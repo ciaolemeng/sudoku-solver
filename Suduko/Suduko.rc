@@ -1,0 +1,287 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Suduko.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Suduko.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Suduko"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Suduko 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2013",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SUDUKO_DIALOG DIALOGEX 0, 0, 289, 185
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "猫猫数独解算器"
+FONT 12, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "开始计算",IDCALC,232,7,50,14
+    PUSHBUTTON      "清空输入",IDCCLEAR,232,61,50,14
+    LTEXT           "",IDC_STATIME,36,161,140,8
+    EDITTEXT        IDC_EDIT1,36,16,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,50,16,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,64,16,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,82,16,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,96,16,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,110,16,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,127,16,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,141,16,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,155,16,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,36,30,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,50,30,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,64,30,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,82,30,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,96,30,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,110,30,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,127,30,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,141,30,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,155,30,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT19,36,44,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT20,50,44,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,64,44,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,82,44,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT23,96,44,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT24,110,44,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT25,127,44,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT26,141,44,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT27,155,44,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT28,36,61,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT29,50,61,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT30,64,61,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT31,82,61,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT32,96,61,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT33,110,61,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT34,127,61,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT35,141,61,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT36,155,61,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT37,36,75,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT38,50,75,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT39,64,75,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT40,82,75,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT41,96,75,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT42,110,75,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT43,127,75,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT44,141,75,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT45,155,75,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT46,36,89,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT47,50,89,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT48,64,89,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT49,82,89,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT50,96,89,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT51,110,89,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT52,127,89,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT53,141,89,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT54,155,89,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT55,36,106,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT56,50,106,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT57,64,106,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT58,82,106,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT59,96,106,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT60,110,106,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT61,127,106,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT62,141,106,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT63,155,106,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT64,36,120,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT65,50,120,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT66,64,120,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT67,82,120,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT68,96,120,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT69,110,120,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT70,127,120,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT71,141,120,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT72,155,120,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT73,36,134,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT74,50,134,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT75,64,134,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT76,82,134,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT77,96,134,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT78,110,134,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT79,127,134,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT80,141,134,13,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT81,155,134,13,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "恢复",IDCBACK,232,33,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Suduko Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Suduko\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Suduko.EXE\0"
+            VALUE "ProductName", "Suduko 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SUDUKO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Suduko(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Suduko.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

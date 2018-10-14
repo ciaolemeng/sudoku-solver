@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Suduko - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/Suduko.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\MYPROJECTS\Suduc\Suduko\SudukoDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAA.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/Suduko.pdb" /machine:I386 /out:"Release/Suduko.exe"  .\Release\ProbVal.obj .\Release\Solver.obj .\Release\StdAfx.obj .\Release\Suduko.obj .\Release\SudukoDlg.obj .\Release\Suduko.res "
+<h3>Output Window</h3>
+Compiling...
+SudukoDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/Suduko.bsc"  .\Release\StdAfx.sbr .\Release\ProbVal.sbr .\Release\Solver.sbr .\Release\Suduko.sbr .\Release\SudukoDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Suduko.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
